@@ -1,0 +1,18 @@
+# Ignorar entornos virtuales
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Ignorar entornos de poetry
+poetry.lock
+*.egg-info/
+
+# Ignorar variables de entorno
+.env
+*.env
+
+# Ignorar notebooks con claves ya expuestas (si quieres limpiarlos)
+*.ipynb_checkpoints/
+.env
+**/.env
