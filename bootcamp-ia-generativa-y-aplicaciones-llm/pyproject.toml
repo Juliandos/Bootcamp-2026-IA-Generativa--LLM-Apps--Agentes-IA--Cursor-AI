@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bootcamp-ia-generativa-y-aplicaciones-llm"
+version = "0.1.0"
+description = "Bootcamp notebooks"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^4.2.4"
+langchain = "^0.3.27"
+langchain-openai = "^0.3.35"
+openai = "^2.3.0"
+langchain-community = "^0.3.31"
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.4.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

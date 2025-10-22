@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv())
 openai_api_key = os.environ["OPENAI_API_KEY"]
-tavily_api_key = os.environ["TAVILY_API_KEY"]
+tavily_api_key = os.environ["TAVILY_API_KEY"]# navegador como google pero más sencillo
 
 from langchain_openai import ChatOpenAI
 

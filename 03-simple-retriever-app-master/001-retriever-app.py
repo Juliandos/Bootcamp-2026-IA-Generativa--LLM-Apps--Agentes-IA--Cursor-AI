@@ -64,7 +64,7 @@ print("\n----------\n")
 
 retriever = vectorstore.as_retriever(
     search_type="similarity",
-    search_kwargs={"k": 1},
+    search_kwargs={"k": 1},# select top result
 )
 
 response = retriever.batch(["John", "Robert"])
